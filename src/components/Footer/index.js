@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <Container>
       <p>Developed by</p>
-      <a href="http://github.com/anacvignola">anacvignola </a>
+      <a href="https://github.com/anacvignola">anacvignola </a>
       <FaGithub color="#FFF" size={18} />
     </Container>
   );
