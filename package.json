@@ -1,5 +1,5 @@
 {
-  "name": "agile-challenge",
+  "name": "beer-catalog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,7 @@
     "styled-components": "^4.4.1"
   },
   "scripts": {
+    "heroku-postbuild": "cd beer-catalog && yarn && yarn run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
